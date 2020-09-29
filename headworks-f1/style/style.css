@@ -1,0 +1,1146 @@
+html, body {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background-color: #FAFAFA;
+}
+
+.container {
+	width: 1152px;
+	margin: 0 auto;
+}
+
+.header__top {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #333333;
+	padding-left: 36px;
+	padding-right: 36px;
+}
+
+.header__logo {
+	width: 53px;
+	height: 22px;
+}
+
+.logo {
+	margin-top: 18px;
+	margin-bottom: 15px;
+}
+
+.menu__and__button {
+	display: flex;
+}
+
+.navbar {
+	color: #FAFAFA;
+ 	text-decoration: none;
+	font-family: Titillium Web, Regular;
+}
+
+.menu {
+	margin-top: 10px;
+	margin-bottom: 14px;
+	margin-right: 41px;
+}
+
+.button {
+	width: 96px;
+	height: 30px;
+}
+
+.button__contact {
+	width: 96px;
+	height: 30px;
+	margin-top: 12px;
+	margin-bottom: 14px;
+	background-color: #F50A4D;
+	color: #F2F2F2;
+	border: 0;
+	font-family: Titillium Web, Bold;
+
+	flex: none;
+	order: 0;
+	align-self: center;
+	flex-grow: 0;
+}
+
+.header__bottom {
+	position: relative;
+}
+
+.bottom__img {
+	width: 100%;
+	height: 377px;
+}
+
+.racing__team {
+	position: absolute;
+	top: 93px;
+	margin-left: 128px;
+	color: #333333;
+
+	font-family: Tittilium Web, BoldItalic;
+	src: url("../assets/fonts/TittiliumWeb-BoldItalic") format("truetype");
+	font-weight: 700;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 32px;
+	letter-spacing: 0.01em;
+}
+
+.hw__F1 {
+	position: absolute;
+	top: 131px;
+	margin-left: 128px;
+
+	font-family: Titillium Web, BoldItalic;
+	src: url("../assets/fonts/TittiliumWeb-BoldItalic") format("truetype");
+	font-style: italic;
+	font-weight: bold;
+	font-size: 88px;
+	line-height: 66px;
+	color: #F50A4D;
+}
+
+.code__clean {
+	position: absolute;
+	top: 205px;
+	margin-left: 492px;
+
+	font-family: Titillium Web, SemiBold;
+	src: url("../assets/fonts/TitilliumWeb-SemiBold") format("truetype");
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 32px;
+	letter-spacing: 0.01em;
+	color: #333333;
+}
+
+.header__car {
+	position: absolute;
+	top: 297px;
+	margin-left: 496px;
+
+	width: 528px;
+	height: 112px;
+}
+
+.main__about {
+	position: relative;
+}
+
+.about__background {
+	position: absolute;
+	top: 161px;
+
+	width: 564px;
+	height: 311px;
+}
+
+.about__heading {
+	position: absolute;
+	top: 124px;
+	margin-left: 496px;
+
+	font-family: Titillium Web, BoldItalic;
+	src: url("../assets/fonts/TittiliumWeb-BoldItalic") format("truetype");
+	font-weight: 700;
+	font-style: italic;
+	font-size: 48px;
+	line-height: 64px;
+	color: #F50A4D;
+}
+
+.about__list {
+	position: absolute;
+	top: 377px;
+	margin-left: 36px;
+
+	font-family: Titillium Web, BoldItalic;
+	src: url("../assets/fonts/TittiliumWeb-BoldItalic") format("truetype");
+	font-weight: 700;
+	font-style: italic;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+	color: #F2F2F2;
+}
+
+.about__text {
+	position: absolute;
+	top: 186px;
+	margin-left: 680px;
+
+	width: 344px;
+	height: 264px;
+}
+
+.text__customization {
+	font-family: Titillium Web, Regular;
+	src: url("../assets/fonts/TitilliumWeb-Regular") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+	color: #4F4F4F;
+}
+
+.main__drivers {
+	position: absolute;
+	width: 100%;
+}
+
+.drivers__heading {
+	position: absolute;
+	top: 622px;
+	left: 36px;
+
+	font-family: Titillium Web, BoldItalic;
+	src: url("../assets/fonts/TittiliumWeb-BoldItalic") format("truetype");
+	font-weight: 700;
+	font-style: italic;
+	font-size: 48px;
+	line-height: 64px;
+	color: #F50A4D;	
+}
+
+.drivers__line {
+	position: absolute;
+	top: 666px;
+	left: 220px;
+	width: calc(100% - 226px);
+	border: 3px solid #F50A4D;
+	background-color: #F50A4D;
+}
+
+.drivers__information {
+	position: relative;
+}
+
+.driver__scripter {
+	position: absolute;
+	width: 100%;
+}
+
+.scripter__line {
+	margin-top: 792px;
+	margin-left: 128px;
+	width: 804px;
+	border: 2px solid #BDBDBD;
+	background-color: #BDBDBD;
+}
+
+.scripter__picture {
+	position: absolute;
+	margin-left: 128px;
+
+	width: 344px;
+	height: 452px;
+}
+
+.fullstack__driver {
+	position: absolute;
+	margin-left: 793px;
+
+	font-family: Titillium Web, Italic;
+	src: url("../assets/fonts/TitilliumWeb-Italic") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 32px;
+	letter-spacing: 0.01em;
+	color: #4F4F4F;
+}
+
+.javan__scripter {
+	position: absolute;
+	margin-left: 747px;
+	margin-top: 14px;
+
+	font-family: Titillium Web, BoldItalic;
+	src: url("../assets/fonts/TittiliumWeb-BoldItalic") format("truetype");
+	font-weight: 700;
+	font-style: italic;
+	font-size: 32px;
+	line-height: 64px;
+	color: #333333;
+}
+
+.scripter__points__first {
+	position: absolute;
+	margin-top: 386px;
+	margin-left: 588px;
+}
+
+.scripter__points__second {
+	position: absolute;
+	margin-top: 386px;
+	margin-left: 772px;
+}
+
+.drivers__points {
+	font-family: Titillium Web, SemiBold;
+	src: url("../assets/fonts/TittiliumWeb-SemiBold") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+	color: #4F4F4F;
+}
+
+.drivers__points__inform {
+	font-family: Titillium Web, Regular;
+	src: url("../assets/fonts/TittiliumWeb-Regular") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+	color: #4F4F4F;
+}
+
+.figmov__line {
+	position: absolute;
+	margin-top: 1372px;
+	margin-left: 220px;
+	width: 804px;
+	border: 2px solid #BDBDBD;
+	background-color: #BDBDBD;
+}
+
+.figmov__picture {
+	position: absolute;
+	margin-top: 1388.66px;
+	margin-left: 680px;
+
+	width: 344px;
+	height: 450.96px;
+}
+
+.senior__driver {
+	position: absolute;
+	margin-top: 1378px;
+	margin-left: 220px;
+
+	font-family: Titillium Web, Italic;
+	src: url("../assets/fonts/TitilliumWeb-Italic") format("truetype");
+	font-weight: normal;
+	font-style: italic;
+	font-size: 16px;
+	line-height: 32px;
+	letter-spacing: 0.01em;
+	color: #4F4F4F;
+}
+
+.jonny__figmov {
+	position: absolute;
+	margin-top: 1396px;
+	margin-left: 220px;
+
+	font-family: Titillium Web, BoldItalic;
+	src: url("../assets/fonts/TittiliumWeb-BoldItalic") format("truetype");
+	font-weight: 700;
+	font-style: italic;
+	font-size: 32px;
+	line-height: 64px;
+	color: #333333;
+}
+
+.figmov__points__first {
+	position: absolute;
+	margin-top: 1758px;
+	margin-left: 220px;
+}
+
+.figmov__points__second {
+	position: absolute;
+	margin-top: 1758px;
+	margin-left: 404px;
+}
+
+.main__car {
+	position: relative;
+}
+
+.car__line {
+	position: absolute;
+	top: 2040px;
+	margin-left: 128px;
+
+	border: 3px solid #F50A4D;
+	background: #F50A4D;
+	width: calc(100% - 134px);
+}
+
+.car__heading {
+	position: absolute;
+	top: 1990px;
+	margin-left: 36px;
+
+	font-family: Titillium Web, BoldItalic;
+	src: url("../assets/fonts/TittiliumWeb-BoldItalic") format("truetype");
+	font-weight: 700;
+	font-style: italic;
+	font-size: 48px;
+	line-height: 64px;
+	color: #F50A4D;
+}
+
+.car__image {
+	position: relative;
+	margin-top: 2080px;
+	margin-left: 128px;
+
+	width: 804px;
+	height: 451px;
+}
+
+.car__information {
+	position: absolute;
+	margin-left: 128px;
+	top: 2447px;
+
+	height: 84px;
+	width: 436px;
+	background: #F2F2F2;
+	opacity: 0.5;
+}
+
+.information__div {
+	position: absolute;
+	top: 2465px;
+	margin-left: 148px;
+	width: 436px;
+	height: 48px;
+}
+
+.information {
+	position: absolute;
+
+	font-family: Titillium Web, SemiBold;
+	src: url("../assets/fonts/TittiliumWeb-SemiBold") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+	color: #333333;
+}
+
+.car__points {
+	position: absolute;
+	top: 2141px;
+	margin-left: 956px;
+}
+
+.car__points__inf {
+	font-family: Titillium Web, BoldItalic;
+	src: url("../assets/fonts/TittiliumWeb-BoldItalic") format("truetype");
+	font-weight: 700;
+	font-style: italic;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+	color: #4F4F4F;
+}
+
+.car__specifications__first {
+	position: absolute;
+	top: 2578px;
+	margin-left: 128px;
+}
+
+.car__specifications__second {
+	position: absolute;
+	top: 2578px;
+	margin-left: 496px;
+}
+
+.car__specifications {
+	font-family: Titillium Web, Regular;
+	src: url("../assets/fonts/TitilliumWeb-Regular") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+	color: #4F4F4F;
+}
+
+.footer {
+	display: flex;
+	position: relative;
+	width: 100%;
+	margin-top: 233px;
+	background-color: #333333;
+	height: 270px;
+}
+
+.footer__navbar {
+	display: flex;
+	justify-content: space-between;
+	width: 639px;
+}
+
+.footer__logo {
+	position: absolute;
+	padding-top: 42px;
+	padding-left: 36px;
+}
+
+.logo__img {
+	width: 120px;
+	height: 56px;
+}
+
+.footer__company__inf {
+	position: absolute;
+
+	margin-top: 128px;
+	margin-left: 36px;
+
+	width: 436px;
+	height: 66px;
+}
+
+.footer__text {
+	font-family: Titillium Web, Regular;
+	src: url("../assets/fonts/TitilliumWeb-Regular") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.01em;
+	color: #E0E0E0;
+}
+
+.footer__menu {
+	position: absolute;
+	margin-left: 589px;
+	margin-top: 42px;
+}
+
+.footer__nav {
+	text-decoration: none;
+
+	font-family: Titillium Web, SemiBold;
+	src: url("../assets/fonts/TitilliumWeb-SemiBold") format("truetype");
+	font-weight: 600;
+	font-style: normal;
+	font-size: 16px;
+	line-height: 32px;
+	letter-spacing: 0.01em;
+	color: #F2F2F2;
+}
+
+.footer__contact__and__email {
+	width: 252px;
+	height: 182px;
+}
+
+.footer__contact {
+	margin-right: 36px;
+}
+
+.footer__email {
+	position: absolute;
+	margin-top: 44px;
+
+	width: 252px;
+	height: 30px;
+
+	border: 1px solid #4F4F4F;
+	box-sizing: border-box;
+	background-color: #333333;
+	color: #F2F2F2;
+
+	padding-left: 12px;
+}
+
+.footer__message {
+	position: absolute;
+	margin-top: 84px;
+
+	width: 252px;
+	height: 90px;
+
+	border: 1px solid #4F4F4F;
+	box-sizing: border-box;
+	background-color: #333333;
+	color: #F2F2F2;
+
+	padding-left: 12px;
+
+	overflow: auto;
+	resize: none;
+}
+
+input[type="email"]::-webkit-input-placeholder {
+	font-family: Titillium Web, Regular;
+	src: url("../assets/fonts/TitilliumWeb-Regular") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.08em;
+	text-transform: capitalize;
+	color: #F2F2F2;
+}
+
+input[type="email"]::-moz-placeholder {
+	font-family: Titillium Web, Regular;
+	src: url("../assets/fonts/TitilliumWeb-Regular") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.08em;
+	text-transform: capitalize;
+	color: #F2F2F2;
+}/* Firefox 19+ */
+
+input[type="email"]:-moz-placeholder {
+	font-family: Titillium Web, Regular;
+	src: url("../assets/fonts/TitilliumWeb-Regular") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.08em;
+	text-transform: capitalize;
+	color: #F2F2F2;
+}/* Firefox 18- */
+
+input[type="email"]:-ms-input-placeholder {
+	font-family: Titillium Web, Regular;
+	src: url("../assets/fonts/TitilliumWeb-Regular") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.08em;
+	color: #F2F2F2;
+}
+
+textarea::-webkit-input-placeholder {
+	font-family: Titillium Web, Regular;
+	src: url("../assets/fonts/TitilliumWeb-Regular") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.08em;
+	text-transform: capitalize;
+	color: #F2F2F2;
+}
+
+textarea::-moz-placeholder {
+	font-family: Titillium Web, Regular;
+	src: url("../assets/fonts/TitilliumWeb-Regular") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.08em;
+	text-transform: capitalize;
+	color: #F2F2F2;
+}/* Firefox 19+ */
+
+textarea:-moz-placeholder {
+	font-family: Titillium Web, Regular;
+	src: url("../assets/fonts/TitilliumWeb-Regular") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.08em;
+	text-transform: capitalize;
+	color: #F2F2F2;
+}/* Firefox 18- */
+
+textarea:-ms-input-placeholder {
+	font-family: Titillium Web, Regular;
+	src: url("../assets/fonts/TitilliumWeb-Regular") format("truetype");
+	font-weight: 400;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.08em;
+	color: #F2F2F2;
+}
+
+.footer__button__contact {
+	font-family: Titillium Web, Bold;
+	src: url("../assets/fonts/TitilliumWeb-Bold") format("truetype");
+	font-weight: 700;
+	font-style: normal;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.08em;
+
+	background: #4F4F4F;
+
+	width: 252px;
+	height: 38px;
+	border: 0;
+	margin-top: 188px;
+
+	color: #F2F2F2;
+	flex: none;
+	order: 0;
+	align-self: center;
+	flex-grow: 0;
+}
+
+#about {
+	margin-right: 50px;
+}
+
+#drivers {
+	margin-right: 43px;
+}
+
+@font-face {
+	font-family: Titillium Web, Regular;
+	src: url("../assets/fonts/TitilliumWeb-Regular") format("truetype");
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 32px;
+	letter-spacing: 0.01em;
+}
+
+@font-face {
+	font-family: Titillium Web, Bold;
+	src: url("../assets/fonts/TitilliumWeb-Bold") format("truetype");
+	font-style: normal;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 30px;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+@media screen and (max-width: 1050px) {
+	
+	html, body {
+		background-color: #F2F2F2;
+	}
+
+	.header__top {
+		padding-right: 16px;
+		padding-left: 16px;
+	}
+
+	.menu {
+		visibility: hidden;
+	}
+
+	.button__contact {
+		margin-right: 16px;
+	}
+
+	.bottom__img {
+		height: 104px;
+	}
+
+	.container {
+		width: 320px;
+		margin: 0 auto;
+	}
+
+	.racing__team {
+		top: 56.79px;
+		margin-left: 16px;
+
+		font-weight: 600;
+		font-size: 10px;
+		line-height: 20.8px;
+	}
+
+	.hw__F1 {
+		top: 76.3px;
+		margin-left: 16px;
+
+		font-size: 48px;
+		line-height: 41.61px;
+	}
+
+	.code__clean {
+		top: 124.4px;
+		margin-left: 195.43px;
+
+		font-size: 12px;
+		line-height: 21px;
+	}
+
+	.header__car {
+		top: 180px;
+		margin-left: 16px;
+		width: 212px;
+		height: 44px;
+	}
+
+	.about__background {
+		top: 341px;
+		margin-left: 16px;
+		width: 288px;
+		height: 159px;
+	}
+
+	.about__heading {
+		top: 305px;
+		margin-left: 16px;
+		
+		font-size: 36px;
+		line-height: 60px;
+	}
+
+	.about__list {
+		margin-top: 69px;
+		margin-left: 28px;
+
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.about__text {
+		margin-top: 310px;
+		margin-left: 16px;
+
+		width: 288px;
+		height: 288px;
+	}
+
+	.drivers__line {
+		top: 916px;
+		left: 136px;
+		width: calc(100% - 142px);
+	}
+	
+	.drivers__heading {
+		top: 880px;
+		left: 16px;
+
+		font-size: 36px;
+	}
+
+	.scripter__line {
+		margin-top: 1396px;
+		margin-left: 16px;
+		width: 288px;
+	}
+
+	.scripter__picture {
+		top: 968px;
+		margin-left: 16px;
+		width: 288px;
+		height: 378.42px;
+	}
+
+	.fullstack__driver {
+		top: 1363px;
+		margin-left: 16px;
+
+		font-family: Titillium Web, SemiBoldItalic;
+		src: url("../assets/fonts/TittiliumWeb-SemiBoldItalic") format("truetype");
+		font-weight: 600;
+		font-size: 14px;
+	}
+
+	.javan__scripter {
+		top: 1394px;
+		margin-left: 16px;
+		font-size: 28px;
+	}
+
+	.scripter__points__first {
+		margin-top: 74px;
+		margin-left: 16px;
+	}
+
+	.scripter__points__second {
+		margin-top: 74px;
+		margin-left: 152px;
+	}
+
+	.drivers__points {
+		font-size: 12px;
+		font-weight: 400;
+		line-height: 20px;
+	}
+
+	.drivers__points__inform {
+		font-family: Titillium Web, Bold;
+		src: url("../assets/fonts/TittiliumWeb-Bold") format("truetype");
+
+		font-weight: 700;
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.figmov__line {
+		margin-top: 2013px;
+		margin-left: 16px;
+		width: 288px;
+	}
+
+	.figmov__picture {
+		margin-top: 1585px;
+		margin-left: 16px;
+		width: 288px;
+		height: 377.69px;
+	}
+
+	.senior__driver {
+		margin-top: 1979px;
+		margin-left: 16px;
+
+		font-family: Titillium Web, SemiBoldItalic;
+		src: url("../assets/fonts/TittiliumWeb-SemiBoldItalic") format("truetype");
+		font-weight: 600;
+		font-size: 14px;
+	}
+
+	.jonny__figmov {
+		margin-top: 2010px;
+		margin-left: 16px;
+
+		font-size: 28px;
+	}
+
+	.figmov__points__first {
+		margin-top: 2086px;
+		margin-left: 16px;
+	}
+
+	.figmov__points__second {
+		margin-top: 2086px;
+		margin-left: 152px;
+	}
+
+	.car__line {
+		top: 2232px;
+		margin-left: 81px;
+		width: calc(100% - 87px)
+	}
+
+	.car__heading {
+		top: 2197px;
+		margin-left: 16px;
+		font-size: 36px;
+	}
+
+	.car__points {
+		top: 2260px;
+		margin-left: 16px;
+
+		font-family: Titillium Web, SemiBoldItalic;
+		src: url("../assets/fonts/TittiliumWeb-SemiBoldItalic") format("truetype");
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 16px;
+	}
+
+	.car__image {
+		top: 240px;
+		margin-left: 0px;
+		width: 319px;
+		height: 179px;
+	}
+
+	.car__information {
+		visibility: hidden;
+	}
+
+	.information__div {
+		padding-left: 16px;
+		padding-right: 16px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+		top: 2495px;
+		width: 320px;
+		height: 60px;
+		margin-left: 0px;
+	}
+
+	.information {
+		font-size: 12px;
+		line-height: 20px;
+	}
+
+	.car__specifications__first {
+		top: 2578px;
+		margin-left: 16px;
+	}
+
+	.car__specifications__second {
+		top: 2655px;
+		margin-left: 16px;
+	}
+
+	.car__specifications {
+		font-size: 14px;
+		line-height: 22px;
+	}
+
+	.footer {
+		margin-top: 548px;
+		height: 520px;
+	}
+
+	.footer__logo {
+		padding-left: 16px;
+		padding-top: 30px;
+
+		width: 105px;
+		height: 48px;
+	}
+
+	.footer__company__inf {
+		margin-top: 98px;
+		margin-left: 16px;
+
+		width: 288px;
+		height: 96px;
+	}
+
+	.footer__text {
+		font-size: 16px;
+		line-height: 24px;
+	}
+
+	.footer__menu {
+		margin-top: 217px;
+		margin-left: 17px;
+
+		display: flex;
+		flex-direction: row;
+	}
+
+	#footer__about {
+		margin-right: 63px;
+	}
+
+	#footer__drivers {
+		margin-right: 61px;
+	}
+
+	.footer__nav {
+		font-size: 18px;
+	}
+
+	.footer__contact__and__email {
+		width: 288px;
+		height: 215.14px;
+	}
+
+	.footer__contact {
+		margin-top: 249px;
+		margin-left: 16px;
+	}
+
+	input[type="email"]::-webkit-input-placeholder {
+		font-family: Titillium Web, SemiBold;
+		src: url("../assets/fonts/TitilliumWeb-SemiBold") format("truetype");
+		font-weight: 600;
+
+		font-size: 16px;
+		line-height: 34.29px;
+	}
+
+	input[type="email"]::-moz-placeholder {
+		font-family: Titillium Web, SemiBold;
+		src: url("../assets/fonts/TitilliumWeb-SemiBold") format("truetype");
+		font-weight: 600;
+
+		font-size: 16px;
+		line-height: 34.29px;
+	}/* Firefox 19+ */
+
+	input[type="email"]:-moz-placeholder {
+		font-family: Titillium Web, SemiBold;
+		src: url("../assets/fonts/TitilliumWeb-SemiBold") format("truetype");
+		font-weight: 600;
+
+		font-size: 16px;
+		line-height: 34.29px;;
+	}/* Firefox 18- */
+
+	input[type="email"]:-ms-input-placeholder {
+		font-family: Titillium Web, SemiBold;
+		src: url("../assets/fonts/TitilliumWeb-SemiBold") format("truetype");
+		font-weight: 600;
+
+		font-size: 16px;
+		line-height: 34.29px;
+	}
+
+	textarea::-webkit-input-placeholder {
+		font-family: Titillium Web, SemiBold;
+		src: url("../assets/fonts/TitilliumWeb-SemiBold") format("truetype");
+		font-weight: 600;
+
+		font-size: 16px;
+		line-height: 34.29px;
+	}
+
+	textarea::-moz-placeholder {
+		font-family: Titillium Web, SemiBold;
+		src: url("../assets/fonts/TitilliumWeb-SemiBold") format("truetype");
+		font-weight: 600;
+
+		font-size: 16px;
+		line-height: 34.29px;
+	}/* Firefox 19+ */
+
+	textarea:-moz-placeholder {
+		font-family: Titillium Web, SemiBold;
+		src: url("../assets/fonts/TitilliumWeb-SemiBold") format("truetype");
+		font-weight: 600;
+
+		font-size: 16px;
+		line-height: 34.29px;
+	}/* Firefox 18- */
+
+	textarea:-ms-input-placeholder {
+		font-family: Titillium Web, SemiBold;
+		src: url("../assets/fonts/TitilliumWeb-SemiBold") format("truetype");
+		font-weight: 600;
+
+		font-size: 16px;
+		line-height: 34.29px;
+	}
+
+	.footer__email {
+		width: 288px;
+		height: 36.29px;
+
+		margin-top: 27px;
+	}
+
+	.footer__message {
+		width: 288px;
+		height: 104.86px;
+
+		margin-top: 78.29px;
+	}
+
+	.footer__button__contact {
+		font-size: 16px;
+		line-height: 34.29px;
+
+		width: 288px;
+		height: 43.43px;
+
+		margin-top: 198.71px;
+		margin-bottom: 28.86px;
+	}
+}
